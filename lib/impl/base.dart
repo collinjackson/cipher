@@ -84,19 +84,19 @@ bool _initialized = false;
 void initCipher() {
   if( !_initialized ) {
     _initialized = true;
-    _registerAsymmetricBlockCiphers();
+    // _registerAsymmetricBlockCiphers();
     _registerBlockCiphers();
-    _registerDigests();
-    _registerEccStandardCurves();
-    _registerKeyDerivators();
-    _registerKeyGenerators();
-    _registerMacs();
+    // _registerDigests();
+    // _registerEccStandardCurves();
+    // _registerKeyDerivators();
+    // _registerKeyGenerators();
+    // _registerMacs();
     _registerModesOfOperation();
-    _registerPaddedBlockCiphers();
-    _registerPaddings();
-    _registerSecureRandoms();
-    _registerSigners();
-    _registerStreamCiphers();
+    // _registerPaddedBlockCiphers();
+    // _registerPaddings();
+    // _registerSecureRandoms();
+    // _registerSigners();
+    // _registerStreamCiphers();
   }
 }
 
